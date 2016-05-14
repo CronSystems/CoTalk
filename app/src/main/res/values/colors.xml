@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00897B</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="colorPrimaryHelp">#607D8B</color>
+    <color name="colorPrimaryDarkHelp">#546E7A</color>
+    <color name="colorAccentHelp">#FF5722</color>
+    <color name="colorCardSend">#FFCCBC</color>
+    <color name="colorCardInbox">#B2DFDB</color>
+</resources>

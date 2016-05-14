@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/nikky/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-tcp/4.1.7/434806b6fee64c75b46d4a530f2c974e0a75db3c/smack-tcp-4.1.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="434806b6fee64c75b46d4a530f2c974e0a75db3c">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/smack-tcp-4.1.7_d6f1a9aeddc6402bb97270dc0f95e3e87432f095/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-android-extensions/4.1.7/7fa6e0db92db51d870cd4a7476c253c5061f2cdb/smack-android-extensions-4.1.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7fa6e0db92db51d870cd4a7476c253c5061f2cdb">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/smack-android-extensions-4.1.7_deeb89c764f07de1e74f78f04968371a2eee15be/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-util-cache/0.4.2/4aa590f2a44d49444dcd3bb082017bf0b46f2ff7/jxmpp-util-cache-0.4.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4aa590f2a44d49444dcd3bb082017bf0b46f2ff7">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/jxmpp-util-cache-0.4.2_356e9e7262beafd6da0b79d029d6fe73e8c274f6/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_288fa2a4a113b3b2f917f8179a8db71bb08d8ca3/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.4_39bba1e04965e6d16b08b0b563b8d775e8a36eb9/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_e059db948617e8db881902a26614ce67f0e22de6/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.3.0_770efb3eea8cc30f8ab551b8142dec4643104a0c/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_c4190ac627a12661b8105c241fdc0287257e782d/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-android/4.1.7/89993c1815cf37691124b7af056b713cbb13e4ac/smack-android-4.1.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="89993c1815cf37691124b7af056b713cbb13e4ac">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/smack-android-4.1.7_b76fff6012ea6daab091b87d4e960d24f23b4a2c/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-core/4.1.7/f007e52516918b86c8f57fbfcac55c395137466c/smack-core-4.1.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f007e52516918b86c8f57fbfcac55c395137466c">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/smack-core-4.1.7_99fed7067e3b871ae6878220e16df879c5584c3a/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_3d4de4259ff82b9fc7b934240144bd9b1b41f26f/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-sasl-provided/4.1.7/d0e482996a31c0e6686fb0382c8a91a58715d2f6/smack-sasl-provided-4.1.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d0e482996a31c0e6686fb0382c8a91a58715d2f6">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/smack-sasl-provided-4.1.7_72f682df85b8099e9d55a446d3024d3d76148f49/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/.gradle/caches/modules-2/files-2.1/org.jxmpp/jxmpp-core/0.4.2/a4c8ce09be6ec90479be74290e381de4288c9569/jxmpp-core-0.4.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a4c8ce09be6ec90479be74290e381de4288c9569">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/jxmpp-core-0.4.2_bf20e0a41bfaaad6dfdaa5c13a79c966a945cc89/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/Documents/MyApplication/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="645e36f5bd62da5828e442435a31ce67261782f1">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c987459091cd088d47a3839bf43cab934f6a82c7/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_115ee3c503411d0c52039dfed34f680148b3fb48/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-resolver-minidns/4.1.7/61742c585f9fbc26409028a7a79cbf1fc554a491/smack-resolver-minidns-4.1.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="61742c585f9fbc26409028a7a79cbf1fc554a491">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/smack-resolver-minidns-4.1.7_47bad895ec030beee871fba55ae342e6371630d6/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/.gradle/caches/modules-2/files-2.1/de.measite.minidns/minidns/0.1.7/993582d1455b93a5723d2af4b39d8679735b3550/minidns-0.1.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="993582d1455b93a5723d2af4b39d8679735b3550">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/minidns-0.1.7_c7d545bd24ca8c1e3a65bcd9f2ec614612ad5285/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_ae2b2179f3ba43c0521359350a2bcd2d51aa1b28/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_2e4f73afeee3a6085b3b4dd821412d2b5647234b/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/Documents/MyApplication/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="15d68f5ae684405530aeeebce99134fadd3e86f1">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_96485e94a7b7ac36e68aa19167385e6f53c14001/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_e59d525da4cce001209ef8b1fa24f5dd97c6be85/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-im/4.1.7/463275ef38bbdc5385462cf94f5886de144c36a1/smack-im-4.1.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="463275ef38bbdc5385462cf94f5886de144c36a1">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/smack-im-4.1.7_f131f76d7d1880551459ffb0d4e1f593d4ddddfe/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikky/.gradle/caches/modules-2/files-2.1/org.igniterealtime.smack/smack-extensions/4.1.7/c9fa9d883f4132ad508365fe6807a22510e85123/smack-extensions-4.1.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c9fa9d883f4132ad508365fe6807a22510e85123">
+        <dex dex="/home/nikky/Documents/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/smack-extensions-4.1.7_55f58eea8ab752796b835278b6391fae59d3b111/classes.dex" />
+    </item>
+
+</items>
