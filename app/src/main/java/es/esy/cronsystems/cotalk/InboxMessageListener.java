@@ -44,7 +44,7 @@ public class InboxMessageListener implements ChatMessageListener {
                     }
                 });
             }
-            Intent notificationIntent = new Intent(contextApp, DialogActivity.class);
+            /*Intent notificationIntent = new Intent(contextApp, DialogActivity.class);
             PendingIntent contentIntent = PendingIntent.getActivity(contextApp,
                     0, notificationIntent,
                     PendingIntent.FLAG_CANCEL_CURRENT);
@@ -63,7 +63,7 @@ public class InboxMessageListener implements ChatMessageListener {
 
             NotificationManager notificationManager = (NotificationManager) contextApp
                     .getSystemService(Context.NOTIFICATION_SERVICE);
-            notificationManager.notify(NOTIFY_ID, notification);
+            notificationManager.notify(NOTIFY_ID, notification);*/
         }
     }
 

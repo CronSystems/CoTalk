@@ -7,7 +7,10 @@ import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.support.v7.widget.LinearLayoutCompat;
 import android.support.v7.widget.RecyclerView;
+import android.view.ContextMenu;
 import android.view.LayoutInflater;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -71,6 +74,7 @@ public class DialogListAdapter extends RecyclerView.Adapter<DialogListAdapter.My
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
         public View view;
+        public TextView textContext;
         public TextView name;
         public TextView xmppadress;
         public ImageView imageView;
@@ -82,6 +86,7 @@ public class DialogListAdapter extends RecyclerView.Adapter<DialogListAdapter.My
             name = (TextView) itemView.findViewById(R.id.text_name);
             xmppadress = (TextView) itemView.findViewById(R.id.text_xmppadress);
             imageView = (ImageView) itemView.findViewById(R.id.person_view);
+            textContext =(TextView) itemView.findViewById(R.id.textView);
         }
     }
 }

@@ -80,4 +80,5 @@
     <string name="thanks">Special thanks to</string>
     <string name="not_empty_text">Type the message</string>
     <string name="action_add">Add</string>
+    <string name="change_photo_user">Change photo</string>
 </resources>
