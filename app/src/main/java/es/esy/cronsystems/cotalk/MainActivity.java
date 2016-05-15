@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity
                 if (!checkUser(new_man_adress)) {
                     try {
                         Long chatId = coTalkService.databaseManager.insertUser(new_man_name, new_man_adress);
-                        userList.add(0, new UserModel(new_man_name, new_man_adress, chatId));
+                        userList.add(0, new UserModel(new_man_name, new_man_adress, chatId, null));
                         rv.getAdapter().notifyDataSetChanged();
                     } catch (Exception e) {
                         e.printStackTrace();
@@ -207,6 +207,13 @@ public class MainActivity extends AppCompatActivity
                 }
             }
         }
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        Log.d("Lifecycle", "onStart");
+        rv.getAdapter().notifyDataSetChanged();
     }
 
     public boolean checkUser(String address) {

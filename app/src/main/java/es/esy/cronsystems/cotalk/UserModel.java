@@ -15,6 +15,7 @@ public class UserModel {
     public String name = "";
     public String user = "";
     public Long userId;
+    public Long unread;
 
     public Long getUserId() {
         return userId;
@@ -29,10 +30,11 @@ public class UserModel {
         user = rosterEntry.getUser();
     }
 
-    public UserModel(String name, String user, Long userId) {
+    public UserModel(String name, String user, Long userId, Long unread) {
         this.name = name;
         this.user = user;
         this.userId = userId;
+        this.unread = unread;
     }
 
     public String getName() {
@@ -49,5 +51,13 @@ public class UserModel {
 
     public void setUser(String user) {
         this.user = user;
+    }
+
+    public Long getUnread() {
+        return unread;
+    }
+
+    public void setUnread(Long unread) {
+        this.unread = unread;
     }
 }

@@ -33,6 +33,7 @@ public class InboxMessageListener implements ChatMessageListener {
         UserModel userModel = MainActivity.coTalkService.databaseManager.getUserByAddress(from);
         if (userModel != null) {
             Long messageId = MainActivity.coTalkService.databaseManager.insertMessage(from, text, userModel.getUserId());
+            MainActivity.coTalkService.databaseManager.addUnreadMessage(from);
             if (from.equals(DialogActivity.new_xmpp_address)) {
                 DialogActivity.messages.add(new Chat(messageId, new Date(), text, from));
                 DialogActivity.rv.post(new Runnable() {

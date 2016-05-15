@@ -26,10 +26,12 @@ public class DatabaseHelper extends SQLiteOpenHelper implements BaseColumns {
     public static final String XMPPADDRESS_COLUMN = "address";
     public static final String TEXTMESSAGE_COLUMN = "message";
     public static final String DATETIME_COLUMN = "created";
+    public static final String UNREAD_COLUMN = "unread";
     private static final String TABLE_USERS_DATABASE_CREATE_SCRIPT = "create table if not exists"
-            + " users" + " (" + BaseColumns._ID
-            + " integer primary key autoincrement, " + NAME_COLUMN
-            + " text not null, " + XMPPADDRESS_COLUMN + " text not null unique); ";
+            + " users" + " (" + BaseColumns._ID + " integer primary key autoincrement, "
+            + NAME_COLUMN + " text not null, "
+            + XMPPADDRESS_COLUMN + " text not null unique, "
+            + UNREAD_COLUMN + " integer default (0));";
 
     private static final String TABLE_MESSAGES_DATABASE_CREATE_SCRIPT = "create table if not exists messages ("
             + BaseColumns._ID + " integer primary key autoincrement, "
@@ -77,7 +79,8 @@ public class DatabaseHelper extends SQLiteOpenHelper implements BaseColumns {
             String user = cursor.getString(cursor
                     .getColumnIndex(DatabaseHelper.XMPPADDRESS_COLUMN));
             Long chatId = cursor.getLong(cursor.getColumnIndex(DatabaseHelper._ID));
-            userModel = new UserModel(name, user, chatId);
+            Long unread = cursor.getLong(cursor.getColumnIndex(DatabaseHelper.UNREAD_COLUMN));
+            userModel = new UserModel(name, user, chatId, unread);
         }
         cursor.close();
         mSqLiteDatabase.close();
@@ -140,7 +143,8 @@ public class DatabaseHelper extends SQLiteOpenHelper implements BaseColumns {
             String user = cursor.getString(cursor
                     .getColumnIndex(DatabaseHelper.XMPPADDRESS_COLUMN));
             Long id = cursor.getLong(cursor.getColumnIndex(DatabaseHelper._ID));
-            users.add(new UserModel(name, user, id));
+            Long unread = cursor.getLong(cursor.getColumnIndex(DatabaseHelper.UNREAD_COLUMN));
+            users.add(new UserModel(name, user, id, unread));
         }
         mSqLiteDatabase.close();
         return users;
@@ -151,5 +155,19 @@ public class DatabaseHelper extends SQLiteOpenHelper implements BaseColumns {
         mSqLiteDatabase.execSQL("DELETE FROM messages WHERE _ID=" + messageId + ";");
         mSqLiteDatabase.close();
 
+    }
+
+    public void addUnreadMessage(String address) {
+        SQLiteDatabase mSqLiteDatabase = getWritableDatabase();
+        mSqLiteDatabase.execSQL("UPDATE users SET "+ UNREAD_COLUMN +" = " + UNREAD_COLUMN + " + 1 WHERE address='" + address + "';");
+        mSqLiteDatabase.close();
+        Log.d("NewMessage", "new message from " + address);
+    }
+
+    public void deleteUnreadMessage(String address) {
+        SQLiteDatabase mSqLiteDatabase = getWritableDatabase();
+        mSqLiteDatabase.execSQL("UPDATE users SET " + UNREAD_COLUMN + " = 0 WHERE address='" + address + "';");
+        mSqLiteDatabase.close();
+        Log.d("DeleteNewMessages", "new message list cleaned");
     }
 }

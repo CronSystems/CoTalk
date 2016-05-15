@@ -47,6 +47,7 @@ public class DialogActivity extends AppCompatActivity {
         actionBar.setSubtitle(new_xmpp_address);
         messages = new ArrayList<>();
         context = getBaseContext();
+        MainActivity.coTalkService.databaseManager.deleteUnreadMessage(new_xmpp_address);
         rv = (RecyclerView) findViewById(R.id.recycler_view);
         if (rv != null) {
             rv.setHasFixedSize(true);

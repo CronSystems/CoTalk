@@ -64,6 +64,7 @@ public class DialogListAdapter extends RecyclerView.Adapter<DialogListAdapter.My
                 return false;
             }
         });
+        holder.unread.setText(mData.get(position).getUnread().toString());
     }
 
     @Override
@@ -74,7 +75,7 @@ public class DialogListAdapter extends RecyclerView.Adapter<DialogListAdapter.My
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
         public View view;
-        public TextView textContext;
+        public TextView unread;
         public TextView name;
         public TextView xmppadress;
         public ImageView imageView;
@@ -86,7 +87,7 @@ public class DialogListAdapter extends RecyclerView.Adapter<DialogListAdapter.My
             name = (TextView) itemView.findViewById(R.id.text_name);
             xmppadress = (TextView) itemView.findViewById(R.id.text_xmppadress);
             imageView = (ImageView) itemView.findViewById(R.id.person_view);
-            textContext =(TextView) itemView.findViewById(R.id.textView);
+            unread =(TextView) itemView.findViewById(R.id.unread_text);
         }
     }
 }
