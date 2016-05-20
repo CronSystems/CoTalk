@@ -216,6 +216,14 @@ public class MainActivity extends AppCompatActivity
         rv.getAdapter().notifyDataSetChanged();
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        Log.d("Lifecycle", "onResume");
+
+        rv.getAdapter().notifyDataSetChanged();
+    }
+
     public boolean checkUser(String address) {
         for (UserModel userModel: userList) {
             String userAddress = userModel.getUser();

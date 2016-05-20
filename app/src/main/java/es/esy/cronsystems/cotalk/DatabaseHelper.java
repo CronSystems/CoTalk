@@ -159,7 +159,7 @@ public class DatabaseHelper extends SQLiteOpenHelper implements BaseColumns {
 
     public void addUnreadMessage(String address) {
         SQLiteDatabase mSqLiteDatabase = getWritableDatabase();
-        mSqLiteDatabase.execSQL("UPDATE users SET "+ UNREAD_COLUMN +" = " + UNREAD_COLUMN + " + 1 WHERE address='" + address + "';");
+        mSqLiteDatabase.execSQL("UPDATE users SET "+ UNREAD_COLUMN + " = " + UNREAD_COLUMN + " + 1 WHERE address='" + address + "';");
         mSqLiteDatabase.close();
         Log.d("NewMessage", "new message from " + address);
     }
