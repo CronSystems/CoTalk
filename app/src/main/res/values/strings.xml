@@ -38,18 +38,23 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
-    <string name="pref_header_setting_server">Set server</string>
     <string name="pref_header_help">Help</string>
     <string name="action_help">Help</string>
 
-    <string name="help_setting_server">First of all, you need to setup ejabberd or OpenFire server client.\n
+    <array name="help_titles">
+        <string name="help_setting_server_header">How to set up server?</string>
+        <string name="help_sign_up_header">How to sign up?</string>
+    </array>
+    <array name="help_body">
+        <string name="help_setting_server">First of all, you need to setup ejabberd or OpenFire server client.\n
                                         Its available on Windows, OS X and Linux.
                                         You only heed to download installer package and install it
                                         following the instructions on screen. After that you need to
-                                        add new accounts to ejabberd server and sign in into CoTalk.</string>
-    <string name="help_sign_up">You need to ask your system administrator to add your account on server
-                                or add it manually from admin account of ejabberd or OpenFire</string>
-
+                                        add new accounts to ejabberd server and sign in into CoTalk. If
+                                        you don't have a server, you can use public XMPP servers.</string>
+        <string name="help_sign_up">You need to ask your system administrator to add your account on server
+                                    or add it manually from admin account of ejabberd or OpenFire</string>
+    </array>
 
     <string name="title_activity_login">Sign in</string>
 

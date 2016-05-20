@@ -212,15 +212,14 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onStart() {
         super.onStart();
-        Log.d("Lifecycle", "onStart");
+        Log.d("LifecycleOfMainActivity", "onStart");
         rv.getAdapter().notifyDataSetChanged();
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        Log.d("Lifecycle", "onResume");
-
+        Log.d("LifecycleOfMainActivity", "onStart");
         rv.getAdapter().notifyDataSetChanged();
     }
 
